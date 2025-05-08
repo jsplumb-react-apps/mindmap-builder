@@ -1,7 +1,7 @@
 import React, {useRef, useState} from "react";
 
 import {InspectorComponent} from "@jsplumbtoolkit/browser-ui-react";
-import {PROPERTY_LABEL, PROPERTY_NOTES} from "../../es6/definitions";
+import {PROPERTY_LABEL, PROPERTY_NOTES} from "./definitions";
 
 export default function MindmapInspectorComponent() {
 

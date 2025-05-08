@@ -6,7 +6,7 @@ import { registerParser, registerExporter, uuid, EVENT_GRAPH_CLEARED, StraightCo
 import { SurfaceProvider, SurfaceComponent, ControlsComponent, MiniviewComponent } from "@jsplumbtoolkit/browser-ui-react";
 import {CLASS_ADD_CHILD, CLASS_MINDMAP_DELETE, CLASS_MINDMAP_INFO, LEFT, RIGHT, SUBTOPIC} from "./definitions";
 import {MINDMAP_JSON, mindmapJsonExporter, mindmapJsonParser} from "./parser";
-import {MAIN} from "../../es6/definitions";
+import {MAIN} from "./definitions";
 
 import Inspector from "./InspectorComponent"
 import {MindmapLayout} from "./layout";
