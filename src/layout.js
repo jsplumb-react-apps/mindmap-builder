@@ -48,7 +48,7 @@ export class MindmapLayout extends AbstractLayout {
                     rootNode:this.focusVertex,
                     idFunction:(d) => d.id,
                     sizeFunction:(id) => {
-                        return this._getSize(id)
+                        return this.$getSize(id)
                     },
                     childVerticesFunction:(d) => {
                         if (d.data.type === MAIN) {
